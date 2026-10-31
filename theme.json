@@ -1,0 +1,75 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.ellismorrow.theme.logseq-classic",
+  "name": "Logseq Classic · Prism",
+  "version": "0.1.1",
+  "apiVersion": "0.2",
+  "description": "An independent light and dark Tine color adaptation inspired by the classic Logseq appearance.",
+  "author": "EllisMorrow",
+  "license": "AGPL-3.0-only",
+  "source": "https://github.com/EllisMorrow/tine-theme-logseq-classic-prism",
+  "modes": {
+    "light": {
+      "--ls-active-primary-color": "#0069b6",
+      "--ls-primary-background-color": "#ffffff",
+      "--ls-secondary-background-color": "#f7f7f7",
+      "--ls-tertiary-background-color": "#eaeaea",
+      "--ls-quaternary-background-color": "#dcdcdc",
+      "--ls-primary-text-color": "#433f38",
+      "--ls-secondary-text-color": "#161e2e",
+      "--ls-title-text-color": "#0f1419",
+      "--ls-link-text-color": "#106ba3",
+      "--ls-link-text-hover-color": "#1a537c",
+      "--ls-tag-text-color": "#106ba3",
+      "--ls-border-color": "#cccccc",
+      "--ls-guideline-color": "rgba(46, 27, 5, 0.08)",
+      "--ls-block-highlight-color": "#c0e6fd",
+      "--ls-block-bullet-color": "rgba(67, 63, 56, 0.25)",
+      "--ls-selection-background-color": "#e4f2ff",
+      "--ls-page-inline-code-bg-color": "#f7f7f7",
+      "--ls-page-inline-code-color": "#433f38",
+      "--ls-page-mark-bg-color": "#fef3ac",
+      "--ls-page-mark-color": "#262626",
+      "--ls-a-chosen-bg": "#dcdcdc"
+    },
+    "dark": {
+      "--ls-active-primary-color": "#8ec2c2",
+      "--ls-primary-background-color": "#002b36",
+      "--ls-secondary-background-color": "#023643",
+      "--ls-tertiary-background-color": "#08404f",
+      "--ls-quaternary-background-color": "#094b5a",
+      "--ls-primary-text-color": "#a4b5b6",
+      "--ls-secondary-text-color": "#dfdfdf",
+      "--ls-title-text-color": "#93a1a1",
+      "--ls-link-text-color": "#8abbbb",
+      "--ls-link-text-hover-color": "#d0e8e8",
+      "--ls-tag-text-color": "#8abbbb",
+      "--ls-border-color": "#0e5263",
+      "--ls-guideline-color": "#0b4a5a",
+      "--ls-block-highlight-color": "#0a3d4b",
+      "--ls-block-bullet-color": "#608e91",
+      "--ls-selection-background-color": "#0a3d4b",
+      "--ls-page-inline-code-bg-color": "#01222a",
+      "--ls-page-inline-code-color": "#a4b5b6",
+      "--ls-page-mark-bg-color": "#fef3ac",
+      "--ls-page-mark-color": "#262626",
+      "--ls-a-chosen-bg": "#094b5a"
+    }
+  },
+  "screenshots": [
+    "https://raw.githubusercontent.com/EllisMorrow/tine-theme-logseq-classic-prism/4cc9b0ebd893e9323b21242b9bdc89aea721b94f/docs/logseq-classic-dark.png",
+    "https://raw.githubusercontent.com/EllisMorrow/tine-theme-logseq-classic-prism/4cc9b0ebd893e9323b21242b9bdc89aea721b94f/docs/logseq-classic-light.png"
+  ],
+  "aiDevelopment": "primary",
+  "portedFrom": {
+    "ecosystem": "logseq",
+    "name": "Logseq classic palette",
+    "source": "https://github.com/logseq/logseq",
+    "revision": "e7e9c97c7fcb9c95d1bea156124a12bb20eea053",
+    "license": "AGPL-3.0-only",
+    "authors": [
+      "Logseq contributors"
+    ],
+    "relationship": "behavioral-port"
+  }
+}
