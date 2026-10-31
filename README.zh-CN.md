@@ -9,7 +9,7 @@
 [![AGPL-3.0-only](https://img.shields.io/badge/license-AGPL--3.0--only-106ba3)](LICENSE)
 [![Release downloads](https://img.shields.io/github/downloads/EllisMorrow/tine-theme-logseq-classic-prism/total?label=release%20downloads)](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases)
 
-[下载 theme.json](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/latest/download/theme.json) · [English](README.md) · [适配说明](docs/adaptation.md)
+[下载完整包](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/logseq-classic-prism-0.1.1.zip) · [theme.json](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/latest/download/theme.json) · [English](README.md) · [适配说明](docs/adaptation.md)
 
 </div>
 
@@ -27,11 +27,17 @@ Logseq 经典配色的 Tine 社区适配：浅色以白底和暖灰文字为主�
 
 ## 安装
 
-1. 下载上方的 `theme.json`。
+1. 下载上方完整 ZIP 并解压，将 `LICENSE`、`NOTICE.md` 与 `theme.json` 一同保留。
 2. 在 Tine 打开 **设置 → 外观 → 主题包 → 选择 theme.json**。
 3. 点击 **使用颜色**，再选择浅色、深色或跟随系统。
 
 需要 Theme API 0.2。个人 `custom.css` 和设备强调色可能影响效果。本包只提供颜色；字体、布局和其它不支持的角色由 Tine 控制。
+
+## 许可文件与再分发
+
+完整 ZIP 包含可编辑的 `theme.json`、完整 [AGPL-3.0 许可证](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/LICENSE)、[来源与修改声明](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/NOTICE.md)、双语 README 和文档。[SHA-256 校验文件](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/SHA256SUMS.txt) 用于核对发行附件。Tine 导入解压后的 `theme.json`；请同时保留许可和声明文件。这些文件也在发行页单独提供，便于配合独立主题文件下载。
+
+再分发本适配时，请一并提供源文件、完整许可证及相关声明，包括带日期的修改说明。主题文件本身即为可编辑源文件。AGPL 不授予第三方商标权，本主题仍是非官方社区适配。主题目录的“详情”链接可打开本仓库。目录清单记录了许可和上游来源，但不据此宣称宿主会安装完整许可文本；完整下载包明确包含这些文件。
 
 ## 配色
 

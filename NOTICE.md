@@ -11,3 +11,5 @@ Changes dated 2026-10-31: map the classic light/dark colors to Tine's 21 support
 Thanks to jjc62 for the [suggestion and comparison](https://github.com/martinkoutecky/tine/discussions/786#discussioncomment-19309264). The implementation was checked against upstream; this acknowledgment does not assert a separate code license or endorsement from jjc62.
 
 This is an unofficial community adaptation. No affiliation or endorsement by Logseq or Tine is claimed; their logos are not included. This package's license does not grant rights to third-party trademarks.
+
+Distribution supplement dated 2026-10-31: the release also provides a complete ZIP with the editable theme source, full license, this notice and documentation, plus separately downloadable LICENSE and NOTICE.md. No palette or manifest changes are made by this supplement. Retain relevant copyright, license and change notices when redistributing.

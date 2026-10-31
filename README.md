@@ -9,7 +9,7 @@
 [![AGPL-3.0-only](https://img.shields.io/badge/license-AGPL--3.0--only-106ba3)](LICENSE)
 [![Release downloads](https://img.shields.io/github/downloads/EllisMorrow/tine-theme-logseq-classic-prism/total?label=release%20downloads)](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases)
 
-[Download theme.json](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/latest/download/theme.json) · [中文说明](README.zh-CN.md) · [Adaptation notes](docs/adaptation.md)
+[Download complete package](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/logseq-classic-prism-0.1.1.zip) · [theme.json](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/latest/download/theme.json) · [中文说明](README.zh-CN.md) · [Adaptation notes](docs/adaptation.md)
 
 </div>
 
@@ -27,11 +27,17 @@ Explore the [Prism theme gallery](https://github.com/martinkoutecky/tine/discuss
 
 ## Install
 
-1. Download `theme.json` using the link above.
+1. Download the complete ZIP above and extract it, keeping `LICENSE` and `NOTICE.md` with `theme.json`.
 2. In Tine open **Settings → Appearance → Theme packages → Select theme.json**.
 3. Choose **Use colors**, then Light, Dark or System mode.
 
 Requires Theme API 0.2. Existing `custom.css` and device accent settings may affect the result. This package supplies colors; typography, layout and unsupported roles remain host-controlled.
+
+## License files and redistribution
+
+The complete ZIP includes the editable `theme.json`, the full [AGPL-3.0 license](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/LICENSE), [source and modification notices](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/NOTICE.md), both READMEs and documentation. [SHA-256 checksums](https://github.com/EllisMorrow/tine-theme-logseq-classic-prism/releases/download/v0.1.1/SHA256SUMS.txt) cover the release assets. Tine imports the extracted `theme.json`; retain the accompanying license and notice files. They are also separately downloadable alongside the standalone manifest.
+
+When sharing this adaptation, include its source, full license and relevant notices, including the dated changes. The theme file is already its editable source. AGPL does not grant third-party trademark rights; this remains an unofficial community adaptation. The catalogue's **Details** link opens this repository. The catalogue manifest records the license and upstream provenance, but this does not establish that the host installs the full license text; the complete download provides those files explicitly.
 
 ## Palette
 
